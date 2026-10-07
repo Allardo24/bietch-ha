@@ -4,8 +4,8 @@
 
 1. Voeg `https://github.com/Allardo24/bietch-ha` toe bij de repositories van de Home Assistant-addonwinkel.
 2. Installeer BIETCH, schakel starten bij opstarten in en start de addon.
-3. Open `http://<IP-van-je-Pi>:8099` of klik op de webinterface-knop. Maak je eigen BIETCH-account en groep aan.
-4. Zet in de bestaande Cloudflared-addon het hostname `bietch.allardnet.nl` door naar `http://<IP-van-je-Pi>:8099`.
+3. Open `http://<IP-van-je-Pi>:8097` of klik op de webinterface-knop. Maak je eigen BIETCH-account en groep aan.
+4. Zet in de bestaande Cloudflared-addon het hostname `bietch.allardnet.nl` door naar `http://<IP-van-je-Pi>:8097`.
 
 De server draait lokaal op de Pi, net als Binga. Cloudflared verzorgt de externe HTTPS-toegang. Er zijn geen HA-accounts nodig voor groepsleden. Uitnodigingslinks en QR-codes gebruiken automatisch `https://bietch.allardnet.nl`, ook als de penningmeester de app lokaal opent.
 

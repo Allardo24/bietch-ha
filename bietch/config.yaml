@@ -10,7 +10,7 @@ init: false
 backup: cold
 panel_icon: mdi:receipt-text
 ports:
-  8080/tcp: 8099
+  8080/tcp: 8097
 ports_description:
   8080/tcp: "BIETCH-server: gebruik deze lokale poort als bestemming in Cloudflared"
 webui: "http://[HOST]:[PORT:8080]"

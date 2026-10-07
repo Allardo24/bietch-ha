@@ -5,5 +5,5 @@
 - Specificaties importeren, persoonlijk claimen en gezamenlijk verdelen.
 - Maandafrekening, CSV en datumverzoeken voor externe retrieve-code.
 - Voorbiechten, dagbundeling en afsluiten van volledig verdeelde dagen.
-- Lokale server op de Pi, poort 8099 voor Cloudflared en bietch.allardnet.nl.
+- Lokale server op de Pi, poort 8097 voor Cloudflared en bietch.allardnet.nl.
 - Website en addon volgen automatisch het ingevulde versienummer.
