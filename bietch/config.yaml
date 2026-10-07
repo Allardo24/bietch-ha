@@ -1,0 +1,22 @@
+name: BIETCH
+version: "0.1.0"
+slug: bietch
+description: "Groepsrekeningen, biechten en samen verdelen"
+url: "https://bietch.allardnet.nl"
+arch: [aarch64]
+startup: application
+boot: auto
+init: false
+backup: cold
+panel_icon: mdi:receipt-text
+ports:
+  8080/tcp: 8099
+ports_description:
+  8080/tcp: "BIETCH-server: gebruik deze lokale poort als bestemming in Cloudflared"
+webui: "http://[HOST]:[PORT:8080]"
+environment:
+  BIETCH_PUBLIC_URL: "https://bietch.allardnet.nl"
+options: {}
+schema: {}
+
+image: "ghcr.io/allardo24/bietch"
