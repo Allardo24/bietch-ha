@@ -1,3 +1,11 @@
+# 0.1.2
+
+- BIETCH bijgewerkt.
+
+# 0.1.1
+
+- BIETCH bijgewerkt.
+
 # 0.1.0
 
 - Eigen accounts en meerdere groepsrekeningen.
