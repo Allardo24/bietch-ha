@@ -13,6 +13,8 @@ De server draait lokaal op de Pi, net als Binga. Cloudflared verzorgt de externe
 
 Dubbelklik op je ontwikkel-pc op `publiceer-ha.bat`, vul je versienummer in en laat het venster open. De starter publiceert zelfstandig via GitHub en biedt de HA-update pas aan als het versie-image beschikbaar is. Er draaien alleen eenvoudige controles, geen browsertests. Vernieuw daarna de HA-winkel en installeer de update. De versie is zichtbaar in BIETCH naast het logo.
 
+De starter zoekt Node.js, Git en Rust op de gebruikelijke Windows-installatiepaden. De meegeleverde ontwikkelruntime wordt alleen gebruikt als Node.js of Git anders ontbreekt. Het venster meldt apart of de publicatie is geslaagd; daarna moet BIETCH in Home Assistant nog worden bijgewerkt voordat de website de nieuwe versie toont.
+
 De database staat in `/data/bietch.sqlite`. Deze gegevens blijven behouden bij updates en herstarts. Maak een HA-backup voor updates; BIETCH wordt tijdens een backup kort gestopt zodat SQLite consistent wordt opgeslagen. De bestaande gegevens op je Windows-ontwikkelserver worden niet automatisch overgezet naar de Pi.
 
 ## Import en retrieve
