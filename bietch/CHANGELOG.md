@@ -1,3 +1,7 @@
+# 0.2.4
+
+- BIETCH bijgewerkt.
+
 # 0.2.3
 
 - BIETCH bijgewerkt.
