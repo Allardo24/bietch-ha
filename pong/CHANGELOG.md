@@ -1,5 +1,9 @@
 # Wijzigingen
 
+## 0.1.2
+
+- Veel soepelere balbeweging en directe racketbesturing.
+
 ## 0.1.1
 
 - ARM64-release voor Raspberry Pi en Home Assistant.

@@ -1,5 +1,5 @@
 name: Pong samen
-version: "0.1.1"
+version: "0.1.2"
 slug: pong_samen
 description: Een simpel potje Pong voor twee spelers.
 arch:
